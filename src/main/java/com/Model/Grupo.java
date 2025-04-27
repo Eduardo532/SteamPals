@@ -32,10 +32,6 @@ public class Grupo {
         this.descripcion = descripcion;
     }
 
-    public void setMiembros(List<Usuario> miembros) {
-        this.miembros = miembros;
-    }
-
     public void setMensajesGrupales(List<MensajeGrupal> mensajesGrupales) {
         this.mensajesGrupales = mensajesGrupales;
     }
@@ -67,12 +63,13 @@ public class Grupo {
     }
 
     public void agregarMiembro(Usuario u){
-
+        miembros.add(u);
     }
     public void eliminarMiembro(Usuario u){
-
+        miembros.remove(u);
     }
     public void enviarMensaje(MensajeGrupal m){
+
 
     }
 }

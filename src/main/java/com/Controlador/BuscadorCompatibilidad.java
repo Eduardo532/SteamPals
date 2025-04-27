@@ -37,8 +37,6 @@ public class BuscadorCompatibilidad {
             System.out.println("no compatible");
         }
         */
-
-
         return similitud;
     }
 }
