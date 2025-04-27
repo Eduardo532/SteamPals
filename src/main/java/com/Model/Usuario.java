@@ -1,5 +1,6 @@
 package com.Model;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class Usuario {
@@ -14,6 +15,10 @@ public class Usuario {
     private List<SolicitudDeAmistad> solicitudes;
 
     private List<Mensaje> mensajes;
+
+    public Usuario(List<Juego> list) {
+        this.juegosFavoritos= list ;
+    }
 
     public void setId(int id) {
         this.id = id;

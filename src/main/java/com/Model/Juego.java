@@ -5,6 +5,10 @@ public class Juego {
     private String nombre;
     private String genero;
 
+    public Juego(String nombre) {
+        this.nombre = nombre;
+    }
+
     public void setId(int id) {
         this.id = id;
     }

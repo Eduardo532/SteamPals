@@ -5,16 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0ceedaef-b53a-4b2d-b49b-e31c4d448e51" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Controlador/BuscadorCompatibilidad.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Gestor_De_Datos/GestorDeDatos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Model/BibliotecaSteam.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Model/Grupo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Model/Juego.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Model/Mensaje.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Model/MensajeGrupal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Model/SolicitudDeAmistad.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Model/Usuario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/Controlador/BuscadorCompatibilidadTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Controlador/BuscadorCompatibilidad.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Controlador/BuscadorCompatibilidad.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Model/Juego.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Model/Juego.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Model/Mensaje.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Model/Mensaje.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Model/MensajeGrupal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Model/MensajeGrupal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Model/SolicitudDeAmistad.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Model/SolicitudDeAmistad.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Model/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Model/Usuario.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +25,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -36,6 +37,43 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Eduardo532&quot;
+  }
+}</component>
+  <component name="GitToolBoxStore">
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="ftr_lalo_2704" />
+                    <option name="lastUsedInstant" value="1745797223" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="dev" />
+                    <option name="lastUsedInstant" value="1745797222" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
+  </component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Eduardo532/SteamPals.git&quot;,
+    &quot;accountId&quot;: &quot;44b91011-eb21-4b13-973a-011e7a0c9f27&quot;
+  }
+}</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -51,8 +89,57 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="JetRunConfigurationType">
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JUnit.BuscadorCompatibilidadTest.executor": "Run",
+    "JUnit.BuscadorCompatibilidadTest.testCalcularCompatibilidad.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "app.teamhub.trackedBranches": "1v1hj1l/dev,1v1hj1l/main",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "ftr__lalo__2704",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.Controlador" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.BuscadorCompatibilidadTest.testCalcularCompatibilidad">
+    <configuration name="BuscadorCompatibilidadTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SteamPals" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Controlador.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.Controlador" />
+      <option name="MAIN_CLASS_NAME" value="com.Controlador.BuscadorCompatibilidadTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BuscadorCompatibilidadTest.testCalcularCompatibilidad" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SteamPals" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Controlador.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.Controlador" />
+      <option name="MAIN_CLASS_NAME" value="com.Controlador.BuscadorCompatibilidadTest" />
+      <option name="METHOD_NAME" value="testCalcularCompatibilidad" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -63,6 +150,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.BuscadorCompatibilidadTest.testCalcularCompatibilidad" />
+        <item itemvalue="JUnit.BuscadorCompatibilidadTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">

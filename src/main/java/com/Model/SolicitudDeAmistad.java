@@ -10,7 +10,7 @@ public class SolicitudDeAmistad {
         this.id = id;
         this.usuarioEmisor = usuarioEmisor;
         this.usuarioReceptor = usuarioReceptor;
-        estado = Pendiente;
+        estado = estado;
     }
 
     public void setId(int id) {
