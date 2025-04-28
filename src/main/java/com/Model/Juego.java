@@ -1,9 +1,15 @@
 package com.Model;
+import java.net.URI;
+import java.net.http.HttpRequest;
+import java.util.HashMap;
+import io.github.cdimascio.dotenv.Dotenv;
 
 public class Juego {
+    private static final Dotenv dotenv = Dotenv.load();
     private int id;
     private String nombre;
     private String genero;
+    private int steamId;
 
     public void setId(int id) {
         this.id = id;
@@ -28,7 +34,7 @@ public class Juego {
         this.steamId = steamId;
     }
 
-    private int steamId;
+   
 
     public int getId() {
         return id;
@@ -46,10 +52,23 @@ public class Juego {
         return steamId;
     }
 
-    public void ObtenerInfoDesdeSteam(){
+    public HashMap ObtenerInfoDesdeSteam()
+    {
+        HttpRequest request = HttpRequest.newBuilder()
+                .uri(URI.create("https://store.steampowered.com/api/appdetails?appids=" + this.steamId))
+                .header("Content-Type", "application/json")
+                .method("GET", HttpRequest.BodyPublishers.noBody())
+                .build();
+                
+        HashMap<String, String> info = new HashMap<>();
 
+
+        return null;
     }
     public boolean esFavoritoDe(Usuario u){
-        return true;
+        if (u.getJuegosFavoritos().contains(this)){
+            return true;
+        }
+        return false;
     }
 }
