@@ -1,13 +1,15 @@
 package com.Model;
 
+import java.util.Date;
+
 public class MensajeGrupal {
     private int id;
     private Usuario emisor;
     private Grupo receptor;
     private String contenido;
-    private DateTime timeStamp;
+    private Date timeStamp;
 
-    public MensajeGrupal(int id, Usuario emisor, Grupo receptor, String contenido, DateTime timeStamp) {
+    public MensajeGrupal(int id, Usuario emisor, Grupo receptor, String contenido, Date timeStamp) {
         this.id = id;
         this.emisor = emisor;
         this.receptor = receptor;
@@ -31,7 +33,7 @@ public class MensajeGrupal {
         this.contenido = contenido;
     }
 
-    public void setTimeStamp(DateTime timeStamp) {
+    public void setTimeStamp(Date timeStamp) {
         this.timeStamp = timeStamp;
     }
 
@@ -51,7 +53,7 @@ public class MensajeGrupal {
         return contenido;
     }
 
-    public DateTime getTimeStamp() {
+    public Date getTimeStamp() {
         return timeStamp;
     }
 

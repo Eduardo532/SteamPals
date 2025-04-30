@@ -4,13 +4,20 @@ public class SolicitudDeAmistad {
     private int id;
     private Usuario usuarioEmisor;
     private Usuario usuarioReceptor;
-    private Enum estado;
+    private Estado estado;
+
+    
+    public enum Estado {
+        Pendiente,
+        Aceptada,
+        Rechazada
+    }
 
     public SolicitudDeAmistad(int id, Usuario usuarioEmisor, Usuario usuarioReceptor) {
         this.id = id;
         this.usuarioEmisor = usuarioEmisor;
         this.usuarioReceptor = usuarioReceptor;
-        estado = Pendiente;
+        this.estado = Estado.Pendiente;
     }
 
     public void setId(int id) {
@@ -25,7 +32,7 @@ public class SolicitudDeAmistad {
         this.usuarioReceptor = usuarioReceptor;
     }
 
-    public void setEstado(Enum estado) {
+    public void setEstado(Estado estado) {
         this.estado = estado;
     }
 
@@ -41,17 +48,19 @@ public class SolicitudDeAmistad {
         return usuarioReceptor;
     }
 
-    public Enum getEstado() {
+    public Estado getEstado() {
         return estado;
     }
 
-    public void enviarSolicitud(){
-
+    public void enviarSolicitud() {
+   
     }
-    public void aceptar(){
 
+    public void aceptar() {
+        this.estado = Estado.Aceptada;
     }
-    public void rechazar(){
 
+    public void rechazar() {
+        this.estado = Estado.Rechazada;
     }
 }

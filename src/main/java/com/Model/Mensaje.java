@@ -1,13 +1,15 @@
 package com.Model;
 
+import java.util.Date;
+
 public class Mensaje {
     private int id;
     private Usuario emisor;
     private Usuario receptor;
     private String contenido;
-    private DateTime timestamp;
+    private Date timestamp;
 
-    public Mensaje(int id, Usuario emisor, Usuario receptor, String contenido, DateTime timestamp) {
+    public Mensaje(int id, Usuario emisor, Usuario receptor, String contenido, Date timestamp) {
         this.id = id;
         this.emisor = emisor;
         this.receptor = receptor;
@@ -31,7 +33,7 @@ public class Mensaje {
         this.contenido = contenido;
     }
 
-    public void setTimestamp(DateTime timestamp) {
+    public void setTimestamp(Date timestamp) {
         this.timestamp = timestamp;
     }
 
@@ -55,11 +57,11 @@ public class Mensaje {
         return contenido;
     }
 
-    public DateTime getTimestamp() {
+    public Date getTimestamp() {
         return timestamp;
     }
 
     public String mostrar(){
-
+        return "vacio";
     }
 }
