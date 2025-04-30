@@ -2,10 +2,8 @@ package com.Model;
 import java.net.URI;
 import java.net.http.HttpRequest;
 import java.util.HashMap;
-import io.github.cdimascio.dotenv.Dotenv;
 
 public class Juego {
-    private static final Dotenv dotenv = Dotenv.load();
     private int id;
     private String nombre;
     private String genero;
@@ -14,7 +12,12 @@ public class Juego {
     public void setId(int id) {
         this.id = id;
     }
-
+    public Juego(){
+        this.id = 0;
+        this.nombre = "Sin nombre";
+        this.genero = "Sin genero";
+        this.steamId = 0;
+    }
     public Juego(int id, String nombre, String genero, int steamId) {
         this.id = id;
         this.nombre = nombre;
@@ -54,21 +57,20 @@ public class Juego {
 
     public HashMap ObtenerInfoDesdeSteam()
     {
-        HttpRequest request = HttpRequest.newBuilder()
-                .uri(URI.create("https://store.steampowered.com/api/appdetails?appids=" + this.steamId))
-                .header("Content-Type", "application/json")
-                .method("GET", HttpRequest.BodyPublishers.noBody())
-                .build();
-                
-        HashMap<String, String> info = new HashMap<>();
-
-
-        return null;
+       // Aun estoy en pruebas con la Api de Steam
+       return null;
     }
+    @Override
+    public String toString() {
+        return "Juego{" +
+                "id=" + id +
+                ", nombre='" + nombre + '\'' +
+                ", genero='" + genero + '\'' +
+                ", steamId=" + steamId +
+                '}';
+    }
+
     public boolean esFavoritoDe(Usuario u){
-        if (u.getJuegosFavoritos().contains(this)){
-            return true;
-        }
-        return false;
+        return u.getJuegosFavoritos().contains(this);
     }
 }
